@@ -1,28 +1,471 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, user-scalable=no"
-        />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="theme-color" content="#fafafa" />
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
 
-        <title>Boiler</title>
+    <title>Boiler</title>
 
-        <meta name="description" content="" />
-        <link rel="apple-touch-icon" href="/assets/img/icon.png" />
-        <link rel="icon" href="/assets/img/favicon.png" />
-        <link rel="stylesheet" href="/assets/css/main.css" />
-        <link rel="stylesheet" href="/assets/css/main.css.map" />
-    </head>
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="/assets/img/icon.png" />
+    <link rel="icon" href="/assets/img/favicon.png" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.css.map" />
+  </head>
 
-    <body>
-        <div class="app">
-            <h1>El boilerplate v3.0</h1>
-            <p>Con algunos iconos de bootstrap: <span class="bi-alarm"></span></p>
+  <body>
+    <div class="home">
+      <header class="header">
+        <div class="header_content">
+          <picture class="header_left">
+            <img
+              src="https://surrealdb.com/static/img/logo-2232dc8d2a09e077d26daeca5e2b5cb9.svg"
+              alt="logo"
+            />
+          </picture>
+          <!-- /header_left -->
+          <nav class="header_right">
+            <ul class="header_nav">
+              <li class="header_nav_item active">
+                <a href="#">Home</a>
+              </li>
+              <li class="header_nav_item">
+                <a href="#">Install</a>
+              </li>
+              <li class="header_nav_item">
+                <a href="#">Community</a>
+              </li>
+              <li class="header_nav_item">
+                <a href="#">Product</a>
+              </li>
+              <li class="header_nav_item">
+                <a href="#">Docs</a>
+              </li>
+              <li class="header_nav_item">
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+            <!-- /header_nav -->
+            <div class="header_ctas">
+              <a href="#" class="button outlined shadowless">
+                <div class="button_holder">
+                  <span class="icon">
+                    <i class="bi bi-star"></i>
+                  </span>
+                  <span class="label">
+                    Star us on GitHub
+                  </span>
+                </div>
+              </a>
+              <a href="#" class="button primary shadowless">
+                <div class="button_holder">
+                  <span class="icon"></span>
+                  <span class="label">
+                    Join us on Github
+                  </span>
+                </div>
+              </a>
+            </div>
+            <!-- /header_ctas -->
+          </nav>
+          <!-- /header_right -->
         </div>
-        <script src="/app/main.js"></script>
-    </body>
+        <!-- /header_content -->
+      </header>
+      <!-- /header -->
+
+      <main>
+        <section class="hero">
+          <div class="hero_content">
+            <div class="hero_left">
+              <h1 class="hero_title">
+                SurrealDB is the ultimate cloud database for tomorrow's
+                applications
+              </h1>
+              <h3 class="hero_subtitle">
+                Develop easier.Build faster.Scale quicker.
+              </h3>
+              <p class="hero_description">
+                With an SQL-style query language, real-time queries with
+                highly-efficient related data retrieval, advanced security
+                permissions for multi-tenant access, and support for performant
+                analytical workloads, SurrealDB is the next generation
+                serverless database.
+              </p>
+              <div class="hero_ctas">
+                <a href="#" class="button outlined">
+                  <div class="button_holder">
+                    <span class="icon">
+                      <i class="bi bi-cloud-download"></i>
+                    </span>
+                    <span class="label">Install</span>
+                  </div>
+                </a>
+                <a href="#" class="button outlined">
+                  <div class="button_holder">
+                    <span class="icon">
+                      <i class="bi bi-bookmark-heart"></i>
+                    </span>
+                    <span class="label">Documentation</span>
+                  </div>
+                </a>
+                <a href="#" class="button primary">
+                  <div class="button_holder">
+                    <span class="icon"></span>
+                    <span class="label">Join us on GitHub</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /hero_left -->
+            <picture class="hero_right">
+              <img
+                src="https://surrealdb.com/static/img/home/logo@2x-d163555351df26f3481b09211b6ef843.png"
+                alt="hero"
+              />
+            </picture>
+            <!-- /hero_right -->
+          </div>
+          <!-- /hero_content -->
+        </section>
+        <!-- /hero -->
+
+        <section class="why">
+          <div class="why_content">
+            <div class="why_top">
+              <h3 class="why_title">Why use SurrealDB?</h3>
+              <p class="why_description">
+                SurrealDB is an innovative NewSQL cloud database, suitable for
+                serverless applications, jamstack applications, single-page
+                applications, and traditional applications. It is unmatched in
+                its versatility and financial value, with the ability for
+                deployment on cloud, on-premise, embedded, and edge computing
+                environments. For a hassle-free setup, get started with
+                SurrealDB Cloud in one-click.
+              </p>
+              <div class="why_ctas">
+                <a href="#" class="button outlined reverse">
+                  <div class="button_holder">
+                    <span class="icon"><i class="bi bi-arrow-right"></i></span>
+                    <span class="label">Jamstack apps</span>
+                  </div>
+                </a>
+                <a href="#" class="button outlined reverse">
+                  <div class="button_holder">
+                    <span class="icon"><i class="bi bi-arrow-right"></i></span>
+                    <span class="label">Serverless apps</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /why_top -->
+            <div class="why_bottom">
+              <div class="why_blocks">
+                <article class="card">
+                  <picture class="card_picture"></picture>
+                  <div class="card_content">
+                    <div class="card_date"></div>
+                    <header class="card_header">
+                      <div class="icon">
+                        <img
+                          src="https://surrealdb.com/static/img/home/tick-a3e79715894a5e7d6793a1f38a424c44.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="label">Develop easier</h4>
+                    </header>
+                    <div class="card_body">
+                      There is no need for your team to learn new complicated
+                      database languages. Getting started with SurrealDB is as
+                      simple as one command - and advanced functionality is
+                      simple to understand, whilst still being fast and
+                      performant.
+                    </div>
+                  </div>
+                </article>
+                <!-- /card - variants -->
+                <article class="card">
+                  <picture class="card_picture"></picture>
+                  <div class="card_content">
+                    <div class="card_date"></div>
+                    <header class="card_header">
+                      <div class="icon">
+                        <img
+                          src="https://surrealdb.com/static/img/home/tick-a3e79715894a5e7d6793a1f38a424c44.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="label">Build faster</h4>
+                    </header>
+                    <div class="card_body">
+                      SurrealDB simplifies your database and API stack, removing
+                      the need for most server-side components. As a web
+                      database, client-side applications can be built with
+                      direct connections to SurrealDB, while traditional
+                      server-side development techniques can still leverage the
+                      powerful but simple querying and analytics abilities.
+                    </div>
+                  </div>
+                </article>
+                <!-- /card - variants -->
+                <article class="card">
+                  <picture class="card_picture"></picture>
+                  <div class="card_content">
+                    <div class="card_date"></div>
+                    <header class="card_header">
+                      <div class="icon">
+                        <img
+                          src="https://surrealdb.com/static/img/home/tick-a3e79715894a5e7d6793a1f38a424c44.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="label">Scale quicker</h4>
+                    </header>
+                    <div class="card_body">
+                      Forget about scaling databases, servers, loadbalancers,
+                      and API endpoints. SurrealDB takes the hassle out of your
+                      stack, enabling you to grow and operate at scale with a
+                      highly-available, highly-scalable distributed platform.
+                      Deploy anywhere, or keep it simple with SurrealDB Cloud.
+                    </div>
+                  </div>
+                </article>
+                <!-- /card - variants -->
+              </div>
+            </div>
+            <!-- /why_bottom -->
+          </div>
+          <!-- /why_content -->
+        </section>
+        <!-- /why -->
+      </main>
+      <!-- /main -->
+      <footer class="footer">
+        <div class="footer_content">
+          <div class="footer_left">
+            <section class="footer_section">
+              <header class="footer_header">
+                <img
+                  src="https://surrealdb.com/static/img/logo-2232dc8d2a09e077d26daeca5e2b5cb9.svg"
+                  alt=""
+                />
+              </header>
+              <div class="footer_claim">
+                With an SQL-style query language, real-time queries with
+                highly-efficient related data retrieval, advanced security
+                permissions for multi-tenant access, and support for performant
+                analytical workloads, SurrealDB is the next generation
+                serverless database.
+              </div>
+              <ul class="footer_social_items">
+                <li class="footer_social_item">
+                  <a href="#">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+                <li class="footer_social_item">
+                  <a href="#">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                </li>
+                <li class="footer_social_item">
+                  <a href="#">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </li>
+                <li class="footer_social_item">
+                  <a href="#">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </li>
+                <li class="footer_social_item">
+                  <a href="#">
+                    <i class="bi bi-youtube"></i>
+                  </a>
+                </li>
+                <li class="footer_social_item">
+                  <a href="#">
+                    <i class="bi bi-discord"></i>
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <!-- /footer_section -->
+            <section class="footer_section">
+              <div class="footer_nav_blocks">
+                <div class="footer_nav_block">
+                  <h4 class="footer_nav_block_header">Product</h4>
+                  <ul class="footer_nav_block_items">
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Documentation</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Why</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Install</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Features</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon status_green">
+                          <i class="bi bi-circle-fill"></i>
+                        </span>
+                        <span class="label">Status</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer_nav_block">
+                  <h4 class="footer_nav_block_header">Legal</h4>
+                  <ul class="footer_nav_block_items">
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"><i class="bi bi-twitter"></i></span>
+                        <span class="label">Twitter</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"><i class="bi bi-github"></i></span>
+                        <span class="label">GitHub</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"><i class="bi bi-facebook"></i></span>
+                        <span class="label">Facebook</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"><i class="bi bi-discord"></i></span>
+                        <span class="label">Discord</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"><i class="bi bi-linkedin"></i></span>
+                        <span class="label">LinkedIn</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer_nav_block">
+                  <h4 class="footer_nav_block_header">Community</h4>
+                  <ul class="footer_nav_block_items">
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Cookies policy</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Security policy</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">License FAQs</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">security.txt</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer_nav_block">
+                  <h4 class="footer_nav_block_header">About</h4>
+                  <ul class="footer_nav_block_items">
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">About us</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Community</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Open Source</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Blog</span>
+                      </a>
+                    </li>
+                    <li class="footer_nav_block_item">
+                      <a href="#">
+                        <span class="icon"></span>
+                        <span class="label">Media</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /footer_nav_blocks -->
+            </section>
+            <!-- /footer_section -->
+            <section class="footer_final_section">
+              <picture class="footer_final_icon">
+                <img
+                  src="https://surrealdb.com/static/img/assets/poweredby/light-73d1734ef4ec6391f0d53665db70cdda.svg"
+                  alt=""
+                />
+              </picture>
+              <p class="footer_copyright">
+                Copyright © SurrealDB Ltd. Registered in England and Wales, no.
+                13615201 Registered address: Civvals, 50 Seymour Street, London,
+                W1H 7JG
+              </p>
+            </section>
+            <!-- /footer_final_section -->
+          </div>
+          <!-- /footer_left -->
+          <picture class="footer_right">
+            <img
+              src="https://surrealdb.com/static/img/home/logo@2x-d163555351df26f3481b09211b6ef843.png"
+              alt="hero"
+            />
+          </picture>
+          <!-- /footer_right -->
+        </div>
+        <!-- /footer_content -->
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="/app/main.js"></script>
+  </body>
 </html>

@@ -1,0 +1,16 @@
+
+1. Buen HTML - recursivo etc - div, span, img, a, i (bootstrap icons)
+
+2. Buenos selectores con Sass - parcialización - descendentes - combinados
+
+3. Flex - Maquetar todo con flex 
+
+4. Espaciados - Margins, paddings, gaps
+
+5. Etiquetas semánticas - p, figures, h*, section, header.... ul, li, navs...
+
+6. Tipografía - mixins
+
+7. Estilos - backgrounds, sombritas, border-radius, bordes....
+
+8. Pixel perfect - efectos hover

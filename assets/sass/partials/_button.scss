@@ -1,0 +1,49 @@
+.button {
+  border-radius: 999999px;
+  box-shadow: 0 0 30px rgb(255 0 158 / 50%);
+  padding: 2px;
+  background: linear-gradient(-60deg, #8700ff 0, #ff009e 100%);
+  transition: all 500ms ease;
+
+  .button_holder {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 999999px;
+
+    .icon {
+      transition: all 500ms ease;
+
+      .bi {
+      }
+    }
+    .label {
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 0 50px rgb(255 0 158 / 60%);
+    transition: all 500ms ease;
+
+    .icon {
+      color: $color_primary;
+      transition: all 500ms ease;
+    }
+  }
+  &.outlined {
+    .button_holder {
+      background-color: #171a21;
+    }
+  }
+  &.primary {
+  }
+  &.reverse {
+    .button_holder {
+      flex-direction: row-reverse;
+    }
+  }
+  &.shadowless {
+    box-shadow: none;
+  }
+}

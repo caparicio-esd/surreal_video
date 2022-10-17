@@ -6,8 +6,17 @@
 @import 'lib/bootstrap-icons'; // https://icons.getbootstrap.com/
 
 
+@import "partials/header";
+@import "partials/hero";
+@import "partials/why";
+@import "partials/footer";
+@import "partials/button";
+@import "partials/card";
+
+
+
 * {
-  border: 1px solid pink;
+  // border: 1px solid pink;
 }
 
 :root {
@@ -16,10 +25,21 @@
   --base-color: $body_color;
 }
 
-html, body {
-  font-family: "Source Sans Pro", sans-serif;
+html,
+body {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: var(--font-base);
   line-height: var(--font-leading-base);
-  color: var(--base-color);
+  color: white;
   min-height: 100vh;
+  @include font_body_md;
+  background-color: #171a21;
+  background-image: url(/assets/img/bg.png);
+  background-size: 950px;
+  background-repeat: no-repeat;
+  background-position: 50% 0px;
+}
+
+.icon:empty {
+  display: none;
 }
